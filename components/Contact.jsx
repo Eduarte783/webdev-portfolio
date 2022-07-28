@@ -8,7 +8,7 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
 	return (
-		<div className="w-full lg:h-screen">
+		<div id="contact" className="w-full lg:h-screen">
 			<div className="max-w-[1240px] m-auto px-2 py-16 w-full">
 				<p className="text-xl tracking-widest uppercase text-[#5651e5]">
 					Contact
@@ -28,8 +28,8 @@ const Contact = () => {
 								/>
 							</div>
 							<div>
-								<h2 className="py-2">Name Here</h2>
-								<p>Front End Developer</p>
+								<h2 className="py-2">Eric Duarte</h2>
+								<p>Full Stack Developer</p>
 								<p className="py-4">
 									I am available for a full-time position. Contact me and let's
 									talk.
@@ -38,12 +38,24 @@ const Contact = () => {
 							<div>
 								<p className="uppercase pt-8"> Connect With Me</p>
 								<div className="flex items-center justify-between py-4">
-									<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-										<FaLinkedinIn />
-									</div>
-									<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-										<FaGithub />
-									</div>
+									<a
+										href="https://www.linkedin.com/in/eric-duarte731/"
+										target="_blank"
+										rel="noreferrer"
+									>
+										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+											<FaLinkedinIn />
+										</div>
+									</a>
+									<a
+										href="https://github.com/Eduarte783"
+										target="_blank"
+										rel="noreferrer"
+									>
+										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+											<FaGithub />
+										</div>
+									</a>
 									<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 										<AiOutlineMail />
 									</div>
