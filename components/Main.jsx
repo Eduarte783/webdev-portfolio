@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -22,18 +23,45 @@ const Main = () => {
 						learning back-end technologies.
 					</p>
 					<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-						<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-							<FaLinkedinIn />
-						</div>
-						<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-							<FaGithub />
-						</div>
-						<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-							<AiOutlineMail />
-						</div>
-						<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-							<BsFillPersonLinesFill />
-						</div>
+						<a
+							href="https://www.linkedin.com/in/eric-duarte731/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+								<FaLinkedinIn />
+							</div>
+						</a>
+						<a
+							href="https://github.com/Eduarte783"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+								<FaGithub />
+							</div>
+						</a>
+						<a
+							href="mailto:eric.duarte83@gmail.com"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+								<AiOutlineMail />
+							</div>
+						</a>
+						<a>
+							<Link
+								href="https://docs.google.com/document/d/1QtIhvp7MP7JFrQ_S8EGfruVy5WuMczYL3mYxkBRkBE0/edit?usp=sharing"
+								download={true}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+									<BsFillPersonLinesFill />
+								</div>
+							</Link>
+						</a>
 					</div>
 				</div>
 			</div>
