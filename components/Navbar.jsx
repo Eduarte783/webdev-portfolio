@@ -173,12 +173,24 @@ const Navbar = () => {
 										<FaGithub title="GitHub" />
 									</div>
 								</a>
-								<div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<AiOutlineMail title="Email" />
-								</div>
-								<div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<BsFillPersonLinesFill title="Resume" />
-								</div>
+								<a
+									href="mailto:eric.duarte83@gmail.com"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<AiOutlineMail title="Email" />
+									</div>
+								</a>
+								<a
+									href="https://docs.google.com/document/d/1QtIhvp7MP7JFrQ_S8EGfruVy5WuMczYL3mYxkBRkBE0/edit?usp=sharing"
+									target="_blank"
+									download={true}
+								>
+									<div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<BsFillPersonLinesFill title="Resume" />
+									</div>
+								</a>
 							</div>
 						</div>
 					</div>

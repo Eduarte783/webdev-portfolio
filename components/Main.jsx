@@ -13,7 +13,7 @@ const Main = () => {
 						LETS BUILD SOMETHING TOGETHER
 					</p>
 					<h1 className="py-4 text-gray-700">
-						Hi, I'm <span className="text-[#5651e5]"> Eric</span>
+						Hi, I'm <span className="text-[#1102cf]"> Eric</span>
 					</h1>
 					<h1 className="py-2 text-gray-700">A Full Stack Web Developer</h1>
 					<p className="py-4 text-gray-700 max-w-[70%] m-auto">
@@ -50,17 +50,14 @@ const Main = () => {
 								<AiOutlineMail />
 							</div>
 						</a>
-						<a>
-							<Link
-								href="https://docs.google.com/document/d/1QtIhvp7MP7JFrQ_S8EGfruVy5WuMczYL3mYxkBRkBE0/edit?usp=sharing"
-								download={true}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-									<BsFillPersonLinesFill />
-								</div>
-							</Link>
+						<a
+							href="https://docs.google.com/document/d/1QtIhvp7MP7JFrQ_S8EGfruVy5WuMczYL3mYxkBRkBE0/edit?usp=sharing"
+							target="_blank"
+							download={true}
+						>
+							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+								<BsFillPersonLinesFill />
+							</div>
 						</a>
 					</div>
 				</div>

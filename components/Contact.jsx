@@ -10,7 +10,7 @@ const Contact = () => {
 	return (
 		<div id="contact" className="w-full lg:h-screen">
 			<div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-				<p className="text-2xl tracking-widest uppercase text-[#5651e5]">
+				<p className="text-2xl tracking-widest uppercase text-[#1102cf]">
 					Contact
 				</p>
 				<h2 className="py-4"> Get in Contact</h2>
@@ -36,14 +36,17 @@ const Contact = () => {
 								</p>
 							</div>
 							<div>
-								<p className="uppercase pt-10"> Connect With Me</p>
+								<p className="uppercase pt-10 text-[#1102cf]">
+									{" "}
+									Connect With Me
+								</p>
 								<div className="flex items-center justify-between py-4">
 									<a
 										href="https://www.linkedin.com/in/eric-duarte731/"
 										target="_blank"
 										rel="noreferrer"
 									>
-										<div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+										<div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 											<FaLinkedinIn size={25} />
 										</div>
 									</a>
@@ -52,7 +55,7 @@ const Contact = () => {
 										target="_blank"
 										rel="noreferrer"
 									>
-										<div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+										<div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 											<FaGithub size={25} />
 										</div>
 									</a>
@@ -61,25 +64,26 @@ const Contact = () => {
 										target="_blank"
 										rel="noreferrer"
 									>
-										<div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+										<div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 											<AiOutlineMail size={25} />
 										</div>
 									</a>
-									<Link
+									<a
 										href="https://docs.google.com/document/d/1QtIhvp7MP7JFrQ_S8EGfruVy5WuMczYL3mYxkBRkBE0/edit?usp=sharing"
 										download={true}
+										target="_blank"
 									>
-										<div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+										<div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 											<BsFillPersonLinesFill size={25} />
 										</div>
-									</Link>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 
 					{/* right */}
-					<div className="col-span-3 w-ful h-auto shadow-xl shadow-gray-500 rounded-xl lg:p-4">
+					<div className="col-span-3 w-ful h-auto shadow-xl shadow-gray-600 rounded-xl lg:p-4">
 						<div className="p-4">
 							<form
 								action="https://getform.io/f/a4bdb259-3afc-4c7c-8dc5-a6bf94d669f5"
@@ -139,7 +143,7 @@ const Contact = () => {
 				</div>
 				<div className="flex justify-center py-12">
 					<Link href="/">
-						<div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+						<div className="rounded-full shadow-lg shadow-gray-600 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
 							<HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
 						</div>
 					</Link>
