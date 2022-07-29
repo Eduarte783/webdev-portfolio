@@ -45,6 +45,7 @@ const Contact = () => {
 										href="https://www.linkedin.com/in/eric-duarte731/"
 										target="_blank"
 										rel="noreferrer"
+										title="LinkedIn"
 									>
 										<div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 											<FaLinkedinIn size={25} />
@@ -54,6 +55,7 @@ const Contact = () => {
 										href="https://github.com/Eduarte783"
 										target="_blank"
 										rel="noreferrer"
+										title="Github"
 									>
 										<div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 											<FaGithub size={25} />
@@ -63,6 +65,7 @@ const Contact = () => {
 										href="mailto:eric.duarte83@gmail.com"
 										target="_blank"
 										rel="noreferrer"
+										title="Email"
 									>
 										<div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 											<AiOutlineMail size={25} />
@@ -72,6 +75,7 @@ const Contact = () => {
 										href="https://docs.google.com/document/d/1QtIhvp7MP7JFrQ_S8EGfruVy5WuMczYL3mYxkBRkBE0/edit?usp=sharing"
 										download={true}
 										target="_blank"
+										title="Resume"
 									>
 										<div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 											<BsFillPersonLinesFill size={25} />

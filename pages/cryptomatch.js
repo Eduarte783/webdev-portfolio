@@ -24,8 +24,8 @@ const cryptomatch = () => {
 
 			<div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
 				<div className="col-span-4">
-					<p>Project</p>
-					<h2>Overview</h2>
+					<p className="mb-2">Project</p>
+					<h2 className="mb-2">Overview</h2>
 					<p>
 						Test your memory and brainpower in this classic game of
 						memorization. In this game you'll have the chance to successfully
@@ -37,7 +37,18 @@ const cryptomatch = () => {
 						it will help you with your next choice. I used Javascript and
 						HTML/CSS to construct this game.
 					</p>
-					<button className="px-8 py-2 mt-4">Code</button>
+					<a
+						href="https://eduarte783.github.io/Memory-Card-Game/"
+						target="_blank"
+					>
+						<button className="px-8 py-2 mt-4 mr-8">Demo</button>
+					</a>
+					<a
+						href="https://github.com/Eduarte783/Memory-Card-Game"
+						target="_blank"
+					>
+						<button className="px-8 py-2 mt-4">Code</button>
+					</a>
 				</div>
 				<div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
 					<div className="p-2">

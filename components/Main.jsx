@@ -27,8 +27,9 @@ const Main = () => {
 							href="https://www.linkedin.com/in/eric-duarte731/"
 							target="_blank"
 							rel="noreferrer"
+							title="LinkedIn"
 						>
-							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+							<div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 								<FaLinkedinIn />
 							</div>
 						</a>
@@ -36,8 +37,9 @@ const Main = () => {
 							href="https://github.com/Eduarte783"
 							target="_blank"
 							rel="noreferrer"
+							title="Github"
 						>
-							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+							<div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 								<FaGithub />
 							</div>
 						</a>
@@ -45,8 +47,9 @@ const Main = () => {
 							href="mailto:eric.duarte83@gmail.com"
 							target="_blank"
 							rel="noreferrer"
+							title="Email"
 						>
-							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+							<div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 								<AiOutlineMail />
 							</div>
 						</a>
@@ -54,8 +57,9 @@ const Main = () => {
 							href="https://docs.google.com/document/d/1QtIhvp7MP7JFrQ_S8EGfruVy5WuMczYL3mYxkBRkBE0/edit?usp=sharing"
 							target="_blank"
 							download={true}
+							title="Resume"
 						>
-							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+							<div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 								<BsFillPersonLinesFill />
 							</div>
 						</a>
