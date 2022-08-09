@@ -6,21 +6,21 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Main = () => {
 	return (
-		<div id="home" className="w-full h-screen text-center">
-			<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+		<div id="home" className="w-full md:h-screen text-center pt-8">
+			<div className="max-w-[1240px] w-full h-full m-auto p-2 py-16 flex justify-center items-center">
 				<div>
-					<p className="uppercase text-sm tracking-widest text-gray-600">
+					<p className="uppercase text-xl tracking-widest text-gray-800">
 						LETS BUILD SOMETHING TOGETHER
 					</p>
-					<h1 className="py-4 text-gray-700">
+					<h1 className="py-2 text-gray-700">
 						Hi, I'm <span className="text-[#1102cf]"> Eric</span>
 					</h1>
-					<h1 className="py-2 text-gray-700">A Full Stack Web Developer</h1>
-					<p className="py-4 text-gray-700 max-w-[70%] m-auto">
-						I'm a full-stack web developer specializing in building
-						(occasionally designing) exceptional digital experiences. Currently,
-						I'm focused on building responsive front-end applications while
-						learning back-end technologies.
+					<h1 className="py-2 text-gray-700">A Software Engineer.</h1>
+					<p className="py-4 text-gray-800 max-w-[70%] text-xl m-auto">
+						A web developer specializing in building exceptional digital
+						experiences for all users. Currently, I'm focused on building
+						responsive front-end applications with functional back-end
+						technologies.
 					</p>
 					<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
 						<a

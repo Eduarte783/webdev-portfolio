@@ -8,12 +8,12 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
 	return (
-		<div id="contact" className="w-full lg:h-screen">
+		<div id="contact" className="w-full lg:h-screen pt-8">
 			<div className="max-w-[1240px] m-auto px-2 py-16 w-full">
 				<p className="text-2xl tracking-widest uppercase text-[#1102cf]">
 					Contact
 				</p>
-				<h2 className="py-4"> Get in Contact</h2>
+				<h2> Get in Contact</h2>
 				<div className="grid lg:grid-cols-5 gap-8">
 					{/* left */}
 					<div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4">
@@ -31,8 +31,7 @@ const Contact = () => {
 								<h2 className="py-2">Eric Duarte</h2>
 								<p>Full Stack Developer</p>
 								<p className="py-4">
-									I am available for a full-time position. Contact me and let's
-									talk.
+									I am available for a full-time position. You can reach out to me via my LinkedIn or Email links below or message me directly here. Resume and Github Repos are available as well. 
 								</p>
 							</div>
 							<div>

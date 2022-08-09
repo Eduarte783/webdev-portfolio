@@ -8,7 +8,7 @@ html {
 
 @layer base {
 	body {
-		@apply bg-gradient-to-r from-[#f9f9f9] to-[#d5d5d5] text-[#1f2937] tracking-wide;
+		@apply bg-gradient-to-r from-[#f9f9f9] to-[#bebebe] text-[#1f2937] tracking-wide;
 		/* @apply bg-[#e9eaeb] text-[#1f2937] tracking-wide; */
 	}
 
