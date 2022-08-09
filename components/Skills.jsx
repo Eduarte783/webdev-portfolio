@@ -1,17 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import imageIcon1 from "../public/images/skills/html.png"
-import imageIcon2 from "../public/images/skills/css.png"
-import imageIcon3 from "../public/images/skills/javascript.png"
-import imageIcon4 from "../public/images/skills/nextjs.png"
-import imageIcon5 from "../public/images/skills/node.png"
-import imageIcon6 from "../public/images/skills/mongodb.png"
-import imageIcon7 from "../public/images/skills/python.png"
-import imageIcon8 from "../public/images/skills/react.png"
-import imageIcon9 from "../public/images/skills/github1.png"
-import imageIcon10 from "../public/images/skills/tailwind.png"
-import imageIcon11 from "../public/images/skills/django.png"
-import imageIcon12 from "../public/images/skills/npm.png"
+import imageIcon1 from "../public/images/skills/html.png";
+import imageIcon2 from "../public/images/skills/css.png";
+import imageIcon3 from "../public/images/skills/javascript.png";
+import imageIcon4 from "../public/images/skills/nextjs.png";
+import imageIcon5 from "../public/images/skills/node.png";
+import imageIcon6 from "../public/images/skills/mongodb.png";
+import imageIcon7 from "../public/images/skills/python.png";
+import imageIcon8 from "../public/images/skills/react.png";
+import imageIcon9 from "../public/images/skills/github1.png";
+import imageIcon10 from "../public/images/skills/tailwind.png";
+import imageIcon11 from "../public/images/skills/django.png";
+import imageIcon12 from "../public/images/skills/npm.png";
 
 const Skills = () => {
 	return (
