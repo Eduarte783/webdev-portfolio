@@ -43,7 +43,7 @@ const Contact = () => {
 									<a
 										href="https://www.linkedin.com/in/eric-duarte731/"
 										target="_blank"
-										rel="noreferrer"
+										rel="noopener"
 										title="LinkedIn"
 									>
 										<div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
@@ -53,7 +53,7 @@ const Contact = () => {
 									<a
 										href="https://github.com/Eduarte783"
 										target="_blank"
-										rel="noreferrer"
+										rel="noopener"
 										title="Github"
 									>
 										<div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
@@ -63,7 +63,7 @@ const Contact = () => {
 									<a
 										href="mailto:eric.duarte83@gmail.com"
 										target="_blank"
-										rel="noreferrer"
+										rel="noopener"
 										title="Email"
 									>
 										<div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
