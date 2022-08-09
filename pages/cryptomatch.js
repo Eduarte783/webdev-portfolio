@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import cryptoMatchImg from "../public/assets/projects/CryptoMatch.png";
+import cryptoMatchImg from "../public/images/projects/CryptoMatch.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 

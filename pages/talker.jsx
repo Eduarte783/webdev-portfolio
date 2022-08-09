@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import talkrImg from "../public/assets/projects/Talker4.png";
+import talkrImg from "../public/images/projects/Talker4.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 

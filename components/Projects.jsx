@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import talkrImg from "../public/assets/projects/Talker4.png";
-import checkmateImg from "../public/assets/projects/CheckMate.png";
-import cryptoMatchImg from "../public/assets/projects/CryptoMatch.png";
+import talkrImg from "../public/images/projects/Talker4.png";
+import checkmateImg from "../public/images/projects/CheckMate.png";
+import cryptoMatchImg from "../public/images/projects/CryptoMatch.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
