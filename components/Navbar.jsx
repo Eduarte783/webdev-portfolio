@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import navIcon from "../public/images/skills/navLogo.png"
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
-import navIcon from "../public/images/skills/navLogo.png"
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
