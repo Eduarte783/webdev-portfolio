@@ -39,14 +39,15 @@ const cryptoMatch = () => {
 					</p>
 					<a
 						href="https://eduarte783.github.io/Memory-Card-Game/"
-						target="_blank" rel="noopener"
+						rel="noopener"
+						target="_blank"
 					>
 						<button className="px-8 py-2 mt-4 mr-8">Demo</button>
 					</a>
 					<a
 						href="https://github.com/Eduarte783/Memory-Card-Game"
-						target="_blank" 
 						rel="noopener"
+						target="_blank" 
 					>
 						<button className="px-8 py-2 mt-4">Code</button>
 					</a>

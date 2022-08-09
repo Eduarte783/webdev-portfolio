@@ -37,15 +37,15 @@ const talker = () => {
 					</p>
 					<a
 						href="https://cutt.ly/KZQVlyF"
-						target="_blank"
 						rel="noopener"
+						target="_blank"
 					>
 					<button className="px-8 py-2 mt-4 mr-8">Demo</button>
 					</a>
 					<a
 						href="https://github.com/Eduarte783/chat-app-public"
-						target="_blank"
 						rel="noopener"
+						target="_blank"
 					>
 						<button className="px-8 py-2 mt-4">Code</button>
 					</a>
