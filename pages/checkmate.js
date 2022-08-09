@@ -39,15 +39,13 @@ const checkmate = () => {
 						hosted/deployed on Netlify.
 					</p>
 					<a
-						rel="noopener"
-						target="_blank"
 					 	href="https://deft-lily-c330b4.netlify.app/"
 					>
 						<button className="px-8 py-2 mt-8 mr-8">Demo</button>
 					</a>
 					<a
-						rel="noopener"
-						target="_blank"
+					//	rel="noopener"
+					//	target="_blank"
 						href="https://github.com/Eduarte783/InCRUDibles-client"
 					>
 						<button className="px-8 py-2 mt-4">Code</button>
