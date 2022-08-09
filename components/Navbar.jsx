@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import imageIcon6 from "../public/images/skills/mongodb.png";
+import imageIcon13 from "../public/images/projects/navLogo.png"
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -55,7 +55,7 @@ const Navbar = () => {
 			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
 				<Link href="/">
 					<Image
-						src={imageIcon6}
+						src={imageIcon13}
 						alt="/"
 						width="105"
 						height="105"
@@ -104,7 +104,7 @@ const Navbar = () => {
 						<div className="flex w-full items-center justify-between">
 							<Link href="/">
 								<Image
-									src={imageIcon6}
+									src={imageIcon13}
 									width="80"
 									height="80"
 									alt="/"
