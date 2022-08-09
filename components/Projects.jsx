@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import talkrImg from "../public/assets/projects/Talker4.png";
 import checkmateImg from "../public/assets/projects/CheckMate.png";
-import cryptomatchImg from "../public/assets/projects/CryptoMatch.png";
+import cryptoMatchImg from "../public/assets/projects/CryptoMatch.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -29,8 +29,8 @@ const Projects = () => {
 					/>
 					<ProjectItem
 						title="Crypto Match"
-						backgroundImg={cryptomatchImg}
-						projectUrl="/cryptomatch"
+						backgroundImg={cryptoMatchImg}
+						projectUrl="/cryptoMatch"
 						techUsed="Tech: Javascript and HTML/CSS"
 					/>
 				</div>

@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import cryptomatchImg from "../public/assets/projects/CryptoMatch.png";
+import cryptoMatchImg from "../public/assets/projects/CryptoMatch.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const cryptomatch = () => {
+const cryptoMatch = () => {
 	return (
 		<div className="w-full">
 			<div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,7 +13,7 @@ const cryptomatch = () => {
 					className="absolute z-1"
 					layout="fill"
 					objectFit="cover"
-					src={cryptomatchImg}
+					src={cryptoMatchImg}
 					alt="/"
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10">
@@ -39,13 +39,14 @@ const cryptomatch = () => {
 					</p>
 					<a
 						href="https://eduarte783.github.io/Memory-Card-Game/"
-						target="_blank"
+						target="_blank" rel="noopener"
 					>
 						<button className="px-8 py-2 mt-4 mr-8">Demo</button>
 					</a>
 					<a
 						href="https://github.com/Eduarte783/Memory-Card-Game"
-						target="_blank"
+						target="_blank" 
+						rel="noopener"
 					>
 						<button className="px-8 py-2 mt-4">Code</button>
 					</a>
@@ -74,4 +75,4 @@ const cryptomatch = () => {
 	);
 };
 
-export default cryptomatch;
+export default cryptoMatch;

@@ -26,6 +26,7 @@ const Main = () => {
 						<a
 							href="https://www.linkedin.com/in/eric-duarte731/"
 							target="_blank"
+							rel="noopener"
 							title="LinkedIn"
 						>
 							<div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
@@ -35,6 +36,7 @@ const Main = () => {
 						<a
 							href="https://github.com/Eduarte783"
 							target="_blank"
+							rel="noopener"
 							title="Github"
 						>
 							<div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
@@ -44,6 +46,7 @@ const Main = () => {
 						<a
 							href="mailto:eric.duarte83@gmail.com"
 							target="_blank"
+							rel="noopener"
 							title="Email"
 						>
 							<div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
@@ -53,6 +56,7 @@ const Main = () => {
 						<a
 							href="https://docs.google.com/document/d/1QtIhvp7MP7JFrQ_S8EGfruVy5WuMczYL3mYxkBRkBE0/edit?usp=sharing"
 							target="_blank"
+							rel="noopener"
 							download={true}
 							title="Resume"
 						>

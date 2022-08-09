@@ -32,7 +32,7 @@ const About = () => {
 					</p>
 					<Link href="/#projects">
 					<p className="py-2 text-gray-700 cursor-pointer underline">
-						Check out a few of my most recent projects >>>
+						Check out a few of my most recent projects
 					</p>
 					</Link>
 				</div>
