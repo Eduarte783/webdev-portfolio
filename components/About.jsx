@@ -39,7 +39,7 @@ const About = () => {
 				<div className="w-full h-auto m-auto shadow-xl shadow-gray-500 rounded-xl flex items-end justify-center p-4 hover:scale-105 ease-in duration-300 ">
 					<Image
 						className="rounded-xl"
-						src="/../public/images/skills/stockPhoto1.jpg"
+						src="/public/images/skills/stock-photo1.jpg"
 						alt="/"
 						width="600"
 						height="450"
