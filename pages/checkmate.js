@@ -38,16 +38,17 @@ const checkmate = () => {
 						user authentication, styled with Tailwind CSS and actively
 						hosted/deployed on Netlify.
 					</p>
-					<a href="https://deft-lily-c330b4.netlify.app/"
+					<a
 						rel="noopener"
 						target="_blank"
+					 	href="https://deft-lily-c330b4.netlify.app/"
 					>
 						<button className="px-8 py-2 mt-8 mr-8">Demo</button>
 					</a>
 					<a
-						href="https://github.com/Eduarte783/InCRUDibles-client"
 						rel="noopener"
 						target="_blank"
+						href="https://github.com/Eduarte783/InCRUDibles-client"
 					>
 						<button className="px-8 py-2 mt-4">Code</button>
 					</a>

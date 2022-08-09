@@ -36,16 +36,16 @@ const talker = () => {
 						choose and actively hosted/deployed on Netlify.
 					</p>
 					<a
-						href="https://cutt.ly/KZQVlyF"
 						rel="noopener"
 						target="_blank"
+						href="https://cutt.ly/KZQVlyF"
 					>
 					<button className="px-8 py-2 mt-4 mr-8">Demo</button>
 					</a>
 					<a
-						href="https://github.com/Eduarte783/chat-app-public"
 						rel="noopener"
 						target="_blank"
+						href="https://github.com/Eduarte783/chat-app-public"
 					>
 						<button className="px-8 py-2 mt-4">Code</button>
 					</a>
