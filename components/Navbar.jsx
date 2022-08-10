@@ -23,7 +23,7 @@ const Navbar = () => {
 			setNavBg("transparent");
 			setLinkColor("#ecf0f3");
 		} else {
-			setNavBg("#ecf0f3");
+			setNavBg("#064557");
 			setLinkColor("#1f2937");
 		}
 	}, [router]);
@@ -64,21 +64,21 @@ const Navbar = () => {
 				<div>
 					<ul style={{ color: `${linkColor}` }} className="hidden md:flex">
 						<Link href="/">
-							<li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+							<li className="ml-10 text-sm text-white uppercase hover:border-b">Home</li>
 						</Link>
 						<Link href="/#about">
-							<li className="ml-10 text-sm uppercase hover:border-b">About</li>
+							<li className="ml-10 text-sm text-white uppercase hover:border-b">About</li>
 						</Link>
 						<Link href="/#skills">
-							<li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+							<li className="ml-10 text-sm text-white uppercase hover:border-b">Skills</li>
 						</Link>
 						<Link href="/#projects">
-							<li className="ml-10 text-sm uppercase hover:border-b">
+							<li className="ml-10 text-sm text-white uppercase hover:border-b">
 								Projects
 							</li>
 						</Link>
 						<Link href="/#contact">
-							<li className="ml-10 text-sm uppercase hover:border-b">
+							<li className="ml-10 text-sm text-white uppercase hover:border-b">
 								Contact
 							</li>
 						</Link>
@@ -96,7 +96,7 @@ const Navbar = () => {
 				<div
 					className={
 						nav
-							? "fixed left-0 top-0 w-[75%] sm:-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-8 ease-in duration-500"
+							? "fixed left-0 top-0 w-[75%] sm:-[60%] md:w-[45%] h-screen bg-[#064557] p-8 ease-in duration-500"
 							: "fixed left-[-100%] top-0 p-10 ease-in duration-500"
 					}
 				>
@@ -112,14 +112,14 @@ const Navbar = () => {
 							</Link>
 							<div
 								onClick={handleNav}
-								className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer"
+								className="rounded-full shadow-lg shadow-gray-100 p-3 mb-4 cursor-pointer"
 							>
 								<AiOutlineClose />
 							</div>
 						</div>
 						<div className="border-b border-gray-200 my-4">
-							<p className="w-[85%] md:w-[90%] py-4 text-lg">
-								Lets build something legendary together
+							<p className="w-[85%] md:w-[90%] py-4 font-bold text-[#ffac01] text-2xl">
+								LET'S BUILD TOGETHER!
 							</p>
 						</div>
 					</div>
@@ -152,7 +152,7 @@ const Navbar = () => {
 							</Link>
 						</ul>
 						<div className="pt-40">
-							<p className="uppercase tracking-widest text-[#6156f7]">
+							<p className="uppercase tracking-widest text-xl text-[#ffac01]">
 								Lets Connect
 							</p>
 							<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
@@ -162,8 +162,8 @@ const Navbar = () => {
 						//			rel="noopener"
 									title="LinkedIn"
 								>
-									<div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-										<FaLinkedinIn title="LinkedIn" />
+									<div className="rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<FaLinkedinIn title="LinkedIn" size={20} />
 									</div>
 								</a>
 								<a
@@ -172,8 +172,8 @@ const Navbar = () => {
 						//			rel="noopener"
 									title="Github"
 								>
-									<div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-										<FaGithub title="GitHub" />
+									<div className="rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<FaGithub title="GitHub" size={20}/>
 									</div>
 								</a>
 								<a
@@ -182,8 +182,8 @@ const Navbar = () => {
 						//			rel="noopener"
 									title="Email"
 								>
-									<div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-										<AiOutlineMail title="Email" />
+									<div className="rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<AiOutlineMail title="Email" size={20}/>
 									</div>
 								</a>
 								<a
@@ -193,8 +193,8 @@ const Navbar = () => {
 									download={true}
 									title="Resume"
 								>
-									<div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-										<BsFillPersonLinesFill title="Resume" />
+									<div className="rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+										<BsFillPersonLinesFill title="Resume" size={20}/>
 									</div>
 								</a>
 							</div>

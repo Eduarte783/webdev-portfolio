@@ -10,7 +10,7 @@ const Projects = () => {
 	return (
 		<div id="projects" className="w-full pt-8">
 			<div className="max-w-[1240px] mx-auto px-2 py-16">
-				<p className="text-2xl tracking-widest uppercase text-[#1102cf]">
+				<p className="text-2xl tracking-widest uppercase text-[#fea400]">
 					Projects
 				</p>
 				<h2>What I've Built</h2>
@@ -30,7 +30,7 @@ const Projects = () => {
 					<ProjectItem
 						title="Crypto Match"
 						backgroundImg={cryptoMatchImg}
-						projectUrl="/cryptoMatch"
+						projectUrl="/cryptomatch"
 						techUsed="Tech: Javascript and HTML/CSS"
 					/>
 				</div>
