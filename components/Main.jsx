@@ -9,11 +9,11 @@ const Main = () => {
 		<div id="home" className="w-full md:h-screen text-center pt-8">
 			<div className="max-w-[1240px] w-full h-full m-auto p-2 py-16 flex justify-center items-center">
 				<div>
-					<p className="py-3 uppercase text-2xl tracking-widest text-[#f99700]">
+					<p className="py-3 uppercase text-2xl tracking-widest text-[#fea400]">
 						LETS BUILD SOMETHING TOGETHER
 					</p>
 					<h1 className="pt-4 text-[#f5f5f4]">
-						Hi, I'm <span className="text-[#f99700]"> Eric</span>
+						Hi, I'm <span className="text-[#fea400]"> Eric</span>
 					</h1>
 					<h1 className="py-2 pb-8 text-[#f5f5f4]">A Software Engineer</h1>
 					<p className="py-6 pb-8 text-[#f5f5f4] max-w-[70%] text-xl m-auto">
