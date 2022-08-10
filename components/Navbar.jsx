@@ -11,7 +11,7 @@ const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const [shadow, setShadow] = useState(false);
 	const [navBg, setNavBg] = useState("#ecf0f3");
-	const [linkColor, setLinkColor] = useState("#064557");
+	const [linkColor, setLinkColor] = useState("#336d7e");
 	const router = useRouter();
 
 	useEffect(() => {
@@ -24,7 +24,7 @@ const Navbar = () => {
 			setLinkColor("#ecf0f3");
 		} else {
 			setNavBg("#336d7e");
-			setLinkColor("#064557");
+			setLinkColor("#336d7e");
 		}
 	}, [router]);
 
