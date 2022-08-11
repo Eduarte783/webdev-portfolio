@@ -22,7 +22,7 @@ const Skills = () => {
 				</p>
 				<h2 className="mb-20">What I Can Do</h2>
 				<div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-					<div className="p-6 shadow-lg shadow-gray-100 bg-[#d5be79] rounded-xl hover:scale-105 ease-in duration-300">
+					<div className="p-6 shadow-lg shadow-gray-100 bg-[#4ac6e8] rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -37,7 +37,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-lg shadow-gray-100 bg-[#d5be79] rounded-xl hover:scale-105 ease-in duration-300">
+					<div className="p-6 shadow-lg shadow-gray-100 bg-[#4ac6e8] rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -52,7 +52,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-lg shadow-gray-100 bg-[#d5be79] rounded-xl hover:scale-105 ease-in duration-300">
+					<div className="p-6 shadow-lg shadow-gray-100 bg-[#4ac6e8] rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -67,7 +67,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-lg shadow-gray-100 bg-[#d5be79] rounded-xl hover:scale-105 ease-in duration-300">
+					<div className="p-6 shadow-lg shadow-gray-100 bg-[#4ac6e8] rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -82,7 +82,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-lg shadow-gray-100 bg-[#d19900] rounded-xl hover:scale-105 ease-in duration-300">
+					<div className="p-6 shadow-lg shadow-gray-100 bg-[#4ac6e8] rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -97,7 +97,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-lg shadow-gray-100 bg-[#d19900] rounded-xl hover:scale-105 ease-in duration-300">
+					<div className="p-6 shadow-lg shadow-gray-100 bg-[#4ac6e8] rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -112,7 +112,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6  shadow-lg shadow-gray-100 bg-[#d19900] rounded-xl hover:scale-105 ease-in duration-300">
+					<div className="p-6  shadow-lg shadow-gray-100 bg-[#4ac6e8] rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -127,7 +127,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-lg shadow-gray-100 bg-[#d19900] rounded-xl hover:scale-105 ease-in duration-300">
+					<div className="p-6 shadow-lg shadow-gray-100 bg-[#4ac6e8] rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -142,7 +142,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-lg shadow-gray-100 bg-[#37788b] rounded-xl hover:scale-105 ease-in duration-300">
+					<div className="p-6 shadow-lg shadow-gray-100 bg-[#4ac6e8] rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -157,7 +157,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-lg shadow-gray-100 bg-[#37788b] rounded-xl hover:scale-105 ease-in duration-300">
+					<div className="p-6 shadow-lg shadow-gray-100 bg-[#4ac6e8] rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -172,7 +172,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-lg shadow-gray-100 bg-[#37788b] rounded-xl hover:scale-105 ease-in duration-300">
+					<div className="p-6 shadow-lg shadow-gray-100 bg-[#4ac6e8] rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -187,7 +187,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-lg shadow-gray-100 bg-[#37788b] rounded-xl hover:scale-105 ease-in duration-300">
+					<div className="p-6 shadow-lg shadow-gray-100 bg-[#4ac6e8] rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
