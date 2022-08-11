@@ -38,6 +38,6 @@ html {
 	}
 
 	button {
-		@apply shadow-lg shadow-gray-100 rounded-xl uppercase bg-[#d19900] text-white;
+		@apply shadow-lg shadow-gray-100 rounded-xl uppercase bg-[#4ac6e8] text-white;
 	}
 }
